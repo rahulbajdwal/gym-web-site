@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLD SCHOOL: GYM/FITNESS</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300&family=Shippori+Antique+B1&family=Ubuntu+Condensed&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    /* css reset */
+    
+    body {
+        background-color: rgb(253, 109, 109);
+        font-family: 'M PLUS 1', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        /* background-image: url(abs-g6b73d40ef_1920.jpg); */
+        color: antiquewhite;
+    }
+    
+    .left {
+        line-height: 2;
+        font-size: 11px;
+        position: absolute;
+        top: 3px;
+        left: 20px;
+        display: inline-block;
+        /* border: 10px solid brown; */
+    }
+    
+    .left img {
+        width: 90px;
+    }
+    
+    .lift div {
+        text-align: center;
+    }
+    
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 3px auto;
+        /* border: 10px solid rebeccapurple; */
+    }
+    
+    .right {
+        position: absolute;
+        top: 3px;
+        right: 5px;
+        display: inline-block;
+        /* border: 10px solid green; */
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+    
+    .navbar li a {
+        color: aqua;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    
+    .btn {
+        font-family: 'M PLUS 1', sans-serif;
+        margin: 0px 9px;
+        background-color: rgb(231, 183, 120);
+        color: antiquewhite;
+        padding: 2px 2px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgb(105, 105, 200);
+    }
+    
+    .container {
+        background-color: aquamarine;
+    }
+    
+    .container h1 {
+        color: black;
+    }
+    
+    .container {
+        border: 2px solid green;
+        margin: 71px 130px;
+        padding: 34px 24px;
+        width: 33%;
+        border-radius: 10px;
+    }
+    
+    .form-group input {
+        margin: 2px auto;
+        padding: 2px;
+        font-family: 'M PLUS 1', sans-serif;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 20px;
+        width: 300px;
+        display: block;
+        border: 4px solid red;
+    }
+    
+    .container button {
+        width: 100%;
+        text-align: center;
+        padding: 4px;
+        margin: 16px 1px;
+    }
+</style>
+
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="gym-g3fe2cddbf_1280.png" alt="">
+            <div> <span style="color:rgb(6, 4, 8)">OLD SCHOOL:GYM/FITNESS  </span> </div>
+        </div>
+        <!-- Mid box for navigation -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about</a></li>
+
+                <li><a href="#">fitness center</a> </li>
+                <li><a href="#">contact</a> </li>
+            </ul>
+        </div>
+        <!-- Right box for button -->
+        <div class="right">
+            <button class="btn">login</button><button class="btn">logout</button><button class="btn">e-mail</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            <pre>
+               Join 
+           Old School GYM
+            </pre>
+        </h1>
+        <form action="noation.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
